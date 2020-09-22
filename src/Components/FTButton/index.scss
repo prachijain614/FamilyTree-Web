@@ -1,0 +1,38 @@
+
+.btnComponentMain {
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  button {
+    width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 14;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: 'black';
+    cursor: pointer;
+  }
+  .btn-loader {
+    margin: auto;
+    position: relative;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    // width: 35px;
+    // line-height: 27px;
+    // height: 40px;
+}
+  .greyBtn {
+    background: 'grey';
+    cursor:auto;
+    //pointer-events: none;
+  }
+  .yellowBtn {
+    background: 'green';
+  }
+}
