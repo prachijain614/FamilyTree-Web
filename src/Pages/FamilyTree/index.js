@@ -64,7 +64,7 @@ const FamilyTree = props => {
         setParent(member.id)
         showModal(true)
     }
-
+//
     return (
         <div>
             <FTModal
